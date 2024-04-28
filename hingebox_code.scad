@@ -607,7 +607,7 @@ module hingedbox_half( bd, topflag=false ) {
     top_d = [dx-wt, dy-wt, wt];
     
     // inserts
-    ins_d=[ dx-wt2, dy-wt2, lz-wt2];
+    ins_d=[ dx-wt2, dy-wt2, lz-wt];
     
     // screw towers
     screw_id_bottom = (screw_id_bottom !=false)? screw_id_bottom : (screw_id*0.80);
